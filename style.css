@@ -1,0 +1,102 @@
+
+
+h2{
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+}
+h1{
+    color:rgb(68, 187, 191);
+    background: 2%lavenderblush;
+    font-size: 40px;
+    text-align: center;
+}
+
+p{
+    color: black;
+    font-size: small;
+    text-align: center;
+}
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+img{
+    display: block;
+    width: 40%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+    list-style: None;
+    padding: 0px;
+    display: flex;
+}
+
+li{
+    margin-right: 5%;
+}
+
+footer{
+    text-align: center;
+    color: salmon;
+}
+
+
+body{
+    background-color: gainsboro;
+}
+
+body {
+    margin: 40px;
+  }
+  
+  /* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  * {
+      padding: 0;
+      margin: 0;
+      font-family: 'Poppins', monospace;
+  } */
+  
+  ul {
+      list-style: none;
+      background: #5286ff;
+  }
+  
+  ul li {
+      display: inline-block;
+      position: relative;
+  }
+  
+  ul li a {
+      display: block;
+      padding: 10px 15px;
+      color: #FFF;
+      text-decoration: none;
+      text-align: center;
+      font-size: 14px;
+  }
+  
+  ul li ul.dropdown li {
+      display: block;
+  }
+  
+  ul li ul.dropdown {
+      width: 100%;
+      background: #5286ff;
+      position: absolute;
+      z-index: 999;
+      display: none;
+  }
+  
+  ul li a:hover {
+      background: #5286ff;
+  }
+  
+  ul li:hover ul.dropdown {
+      display: block;
+  }
